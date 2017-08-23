@@ -61177,7 +61177,7 @@ class Features extends __WEBPACK_IMPORTED_MODULE_0_react__["Component"] {
           __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
             __WEBPACK_IMPORTED_MODULE_2_semantic_ui_react__["b" /* Card */],
             { centered: true, fluid: true },
-            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_semantic_ui_react__["g" /* Image */], { src: '/static/img/screenshot.png' })
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_semantic_ui_react__["g" /* Image */], { src: '/static/img/screenshot.jpg' })
           )
         )
       ),
@@ -61327,7 +61327,7 @@ class About extends __WEBPACK_IMPORTED_MODULE_0_react__["Component"] {
           __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_3__bio_jsx__["a" /* default */], {
             image: '/static/img/ms.jpg',
             name: 'Melissa Schwartz',
-            description: 'Vegan Fullstack Engineer',
+            description: 'Animal Rights Activist, Engineer',
             github: 'https://github.com/melissjs/',
             linkedin: 'https://www.linkedin.com/in/melissjs/'
           })
