@@ -40959,6 +40959,7 @@ class Menubar extends __WEBPACK_IMPORTED_MODULE_0_react__["Component"] {
         __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_semantic_ui_react__["h" /* Menu */].Item, { name: 'Features', active: activeItem === 'Features', onClick: this.handleItemClick }),
         __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_semantic_ui_react__["h" /* Menu */].Item, { name: 'Installation', active: activeItem === 'Installation', onClick: this.handleItemClick }),
         __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_semantic_ui_react__["h" /* Menu */].Item, { name: 'About', active: activeItem === 'About', onClick: this.handleItemClick }),
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_semantic_ui_react__["h" /* Menu */].Item, { name: 'Getting Started', onClick: () => location.href = 'https://medium.com/@brett.beekley/using-liveapi-part-1-installation-ba1aa13bc73b' }),
         __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_semantic_ui_react__["h" /* Menu */].Item, { name: 'github', icon: 'github', position: 'right', link: true, onClick: () => location.href = 'https://github.com/live-api/' })
       )
     );
@@ -61044,6 +61045,7 @@ class Content extends __WEBPACK_IMPORTED_MODULE_0_react__["Component"] {
   render() {
     const { activeItem } = this.state;
     const chromeExtensionUrl = 'https://chrome.google.com/webstore/detail/liveapi/okbjjnhfifjpggnjkjopeidfaciphkdf';
+    const gettingStartedUrl = 'https://medium.com/@brett.beekley/using-liveapi-part-1-installation-ba1aa13bc73b';
 
     return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
       __WEBPACK_IMPORTED_MODULE_2_semantic_ui_react__["e" /* Grid */],
@@ -61108,6 +61110,11 @@ class Content extends __WEBPACK_IMPORTED_MODULE_0_react__["Component"] {
             __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_semantic_ui_react__["a" /* Button */], { content: 'Download Chrome Extension', icon: 'chrome', size: 'huge', onClick: () => location.href = chromeExtensionUrl })
           )
         )
+      ),
+      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+        __WEBPACK_IMPORTED_MODULE_2_semantic_ui_react__["e" /* Grid */].Row,
+        { color: 'black' },
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_semantic_ui_react__["a" /* Button */], { content: 'Getting Started Guide', size: 'huge', onClick: () => location.href = gettingStartedUrl })
       )
     );
   }
