@@ -61054,6 +61054,11 @@ class Content extends __WEBPACK_IMPORTED_MODULE_0_react__["Component"] {
           __WEBPACK_IMPORTED_MODULE_2_semantic_ui_react__["f" /* Header */],
           { size: 'huge', inverted: true },
           'Installation'
+        ),
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+          'p',
+          null,
+          'LiveAPI is a developer tool to turn any website\u2019s public data into an API in a few minutes. LiveAPI has two parts: a Chrome Extension to select data to extract and a user-hostable server that extracts data and serves up the user-created API endpoints.'
         )
       ),
       __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
@@ -61280,6 +61285,29 @@ class About extends __WEBPACK_IMPORTED_MODULE_0_react__["Component"] {
           __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
             __WEBPACK_IMPORTED_MODULE_2_semantic_ui_react__["f" /* Header */],
             { size: 'huge' },
+            'About'
+          ),
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            'p',
+            null,
+            'Successful apps are built on data. As developers, we don\u2019t always have access to the data that would help make our app successful. While the internet is a nearly-bottomless source of public data in the form of websites, that data is not always structured or available programmatically through an API. Time spent building an extraction algorithm and server is time not spent building your app.'
+          ),
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            'p',
+            null,
+            'We\u2019re developing LiveAPI because we needed to solve this for our own apps. We\u2019d love to hear about your use cases and feedback.'
+          )
+        )
+      ),
+      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+        __WEBPACK_IMPORTED_MODULE_2_semantic_ui_react__["e" /* Grid */].Row,
+        { columns: 1 },
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+          __WEBPACK_IMPORTED_MODULE_2_semantic_ui_react__["c" /* Container */],
+          null,
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            __WEBPACK_IMPORTED_MODULE_2_semantic_ui_react__["f" /* Header */],
+            { size: 'huge' },
             'Contributors'
           ),
           __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
@@ -61306,7 +61334,7 @@ class About extends __WEBPACK_IMPORTED_MODULE_0_react__["Component"] {
           __WEBPACK_IMPORTED_MODULE_2_semantic_ui_react__["e" /* Grid */].Column,
           null,
           __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_3__bio_jsx__["a" /* default */], {
-            image: '/static/img/pw2.png',
+            image: '/static/img/pw.png',
             name: 'Penn Wu',
             description: 'Ping pong warrior',
             github: 'https://github.com/pennwu1/',
@@ -61317,7 +61345,7 @@ class About extends __WEBPACK_IMPORTED_MODULE_0_react__["Component"] {
           __WEBPACK_IMPORTED_MODULE_2_semantic_ui_react__["e" /* Grid */].Column,
           null,
           __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_3__bio_jsx__["a" /* default */], {
-            image: 'https://react.semantic-ui.com/assets/images/avatar/large/elliot.jpg',
+            image: '/static/img/bb.jpg',
             name: 'Brett Beekley',
             description: 'Engineer, scientist, homebrewer',
             github: 'https://www.github.com/beekley/',
@@ -61346,6 +61374,7 @@ class About extends __WEBPACK_IMPORTED_MODULE_0_react__["Component"] {
 
 
 const Bio = props => {
+
   return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
     __WEBPACK_IMPORTED_MODULE_2_semantic_ui_react__["b" /* Card */],
     { centered: true, className: 'feature' },
