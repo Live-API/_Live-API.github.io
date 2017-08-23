@@ -61325,8 +61325,9 @@ class About extends __WEBPACK_IMPORTED_MODULE_0_react__["Component"] {
           __WEBPACK_IMPORTED_MODULE_2_semantic_ui_react__["e" /* Grid */].Column,
           null,
           __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_3__bio_jsx__["a" /* default */], {
-            image: 'https://react.semantic-ui.com/assets/images/avatar/large/elliot.jpg',
+            image: '/static/img/ms.jpg',
             name: 'Melissa Schwartz',
+            description: 'Vegan Fullstack Engineer',
             github: 'https://github.com/melissjs/',
             linkedin: 'https://www.linkedin.com/in/melissjs/'
           })
@@ -61337,7 +61338,7 @@ class About extends __WEBPACK_IMPORTED_MODULE_0_react__["Component"] {
           __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_3__bio_jsx__["a" /* default */], {
             image: '/static/img/pw.png',
             name: 'Penn Wu',
-            description: 'Ping pong warrior',
+            description: 'Data Enthusiast',
             github: 'https://github.com/pennwu1/',
             linkedin: 'https://www.linkedin.com/in/pennwu/'
           })
@@ -61348,7 +61349,7 @@ class About extends __WEBPACK_IMPORTED_MODULE_0_react__["Component"] {
           __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_3__bio_jsx__["a" /* default */], {
             image: '/static/img/bb.jpg',
             name: 'Brett Beekley',
-            description: 'Engineer, scientist, homebrewer',
+            description: 'Engineer, Scientist, Homebrewer',
             github: 'https://www.github.com/beekley/',
             linkedin: 'https://www.linkedin.com/in/brettbeekley/'
           })
