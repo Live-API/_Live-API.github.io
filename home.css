@@ -1,0 +1,21 @@
+html {
+background: #1b1c1d;
+}
+
+#root {
+  background: -moz-linear-gradient(45deg, rgb(24, 204, 74) 0%, rgb(79, 249, 127) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(45deg, rgb(24, 204, 74) 0%,rgb(79, 249, 127) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(45deg, rgb(24, 204, 74) 0%,rgb(79, 249, 127) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */*/
+}
+
+p {
+  font-size: 0.97em;
+}
+
+.feature {
+  text-align: center;
+}
+
+#about {
+  background-color: white;
+}
