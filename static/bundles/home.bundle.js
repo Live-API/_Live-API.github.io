@@ -61043,6 +61043,7 @@ class Content extends __WEBPACK_IMPORTED_MODULE_0_react__["Component"] {
 
   render() {
     const { activeItem } = this.state;
+    const chromeExtensionUrl = 'https://chrome.google.com/webstore/detail/liveapi/okbjjnhfifjpggnjkjopeidfaciphkdf';
 
     return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
       __WEBPACK_IMPORTED_MODULE_2_semantic_ui_react__["e" /* Grid */],
@@ -61104,7 +61105,7 @@ class Content extends __WEBPACK_IMPORTED_MODULE_0_react__["Component"] {
               null,
               'The LiveAPI Chrome Extension provides an interface for selecting data from a webpage to extract, and can be installed from the Chrome Store:'
             ),
-            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_semantic_ui_react__["a" /* Button */], { content: 'Download Chrome Extension', icon: 'chrome', size: 'huge' })
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_semantic_ui_react__["a" /* Button */], { content: 'Download Chrome Extension', icon: 'chrome', size: 'huge', onClick: () => location.href = chromeExtensionUrl })
           )
         )
       )
